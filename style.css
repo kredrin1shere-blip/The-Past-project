@@ -1,6 +1,9 @@
 
 
-@media screen and (pointer: coarse) {
+@media screen and (max-width: 800px) {
+    body{
+        width: 100%  !important;
+    }
     .introduser {
         display: none !important;
     }
