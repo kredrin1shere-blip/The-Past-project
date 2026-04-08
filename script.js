@@ -57,3 +57,5 @@ modal.onclick = (event) => {
 };
 
 initSlider();
+
+
