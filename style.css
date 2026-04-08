@@ -1,0 +1,569 @@
+
+
+@media screen and (max-width: 800px) {
+    .introduser {
+        display: none !important;
+    }
+    .textabout {
+        width: 100% !important;
+    }
+    .mainblock {
+        flex-direction: column; 
+        height: auto !important; 
+    }
+    .title, h1 {
+        font-size: 3em !important;
+    }
+    p,ul {
+        font-size: 1em !important;
+        width: 90% !important;
+    }
+    .text-content iframe {
+        width: 80vw !important;
+        height: 50vw !important;
+        margin: 10px auto !important;
+        margin: 5% auto auto 5%!important;
+    }
+    
+    .discord iframe {
+        width: 85vw !important;
+        height: 50vw !important;
+        margin: 5% auto auto 5%!important;
+        float:left !important;
+    }
+
+    .about button {
+        width: 80vw !important;
+        height: 10vw !important;
+        font-size: 1em !important;
+    }
+    .about{
+        margin-top: 20px; /* Додаємо відступ, щоб текст не лип до відео */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .discord button{
+        width: 30vw !important;
+        height: 14vw !important;
+        font-size: 1.5em !important;
+    }
+   
+
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background-color: rgb(30, 33, 38);
+    font-family: "Inter", sans-serif;   
+}
+
+@keyframes changebg{
+    0%{
+        background-image: url('images/introduser_bg1.png');
+    }
+    25%{
+        background-image: url('images/introduser_bg2.png');
+    }
+    50%{
+        background-image: url('images/introduser_bg3.png');
+    }
+    75%{
+        background-image: url('images/introduser_bg4.png');
+    }
+    100%{
+        background-image: url('images/introduser_bg1.png');
+    }
+}
+
+
+
+
+
+.mainblock{
+    margin-top: 7vh;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(40, 44, 51);
+    border-bottom:4px solid rgb(48, 51, 58);
+
+}
+
+.textabout{
+    margin-top: 2.5%;
+    background-color: rgba(0, 0, 0, 0);
+    width:50%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: white;
+    align-items: center;
+}
+
+.introduser{
+    margin-top: 2.5%;
+    animation: changebg 20s infinite;
+    display:block;
+    background-color: black;
+    width:50%;
+    height: 90%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 4px solid rgb(48, 51, 58);
+    border-radius: 10px;
+    box-shadow: 0px 0px 100px 60px rgb(25, 27, 31)  inset;
+}
+
+.text-content{
+    height: auto;
+    display: flex;
+    background-color: rgb(30, 33, 38);
+    margin: 3% 3% auto 3%;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    top:0;
+    background-color: rgb(30, 33, 38);
+    box-shadow: 0px 0px 10px 6px rgb(25, 27, 31);
+    z-index: 100;
+}
+
+.title{
+    font-size:4em;
+    color:white;
+    margin: 5% 0 0 3%;
+}
+
+.undertitle{
+    font-size:1.5em;
+    color:rgb(200, 200, 200);
+    margin: 3% 0 0 4%;
+}
+
+.text-content iframe{
+border: none;
+border-radius: 8px;
+height:25vw;
+width: 40vw;
+margin:3% auto 5% 3%;
+}
+
+
+.about{
+    width: 100%;
+    background-color: rgb(30, 33, 38);
+    height: auto;
+}
+
+
+.release{
+    margin-top: 7vh;
+    width: 100%;
+    height:auto;
+    background-color: rgb(40, 44, 51);
+    border-bottom:4px solid rgb(48, 51, 58);
+    border-top:4px solid rgb(48, 51, 58);
+
+    
+}
+
+.about h1{
+    font-size: 5em;
+    color: white;
+    margin: 5% 0 0 7%;
+}
+
+.about p{
+    font-size: 1.2em;
+    color: rgb(200, 200, 200);
+    margin: 2% 0 0 7%;
+    width: 80%;
+
+}
+
+.about button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3% 0 0 7%;
+    width: 20%;
+    height: 5vh;
+    background-color: rgb(48, 51, 58);
+    color: rgba(255, 255, 255, 0.521);
+    font-size: 3em;
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.about h2{
+    font-size: 1em;
+    color: rgba(200, 200, 200, 0.586);
+    margin: 1% 0 0 7%;
+}
+
+.release h1{
+    font-size: 5em;
+    color: white;
+    margin: 5% 0 0 7%;
+}
+
+.release p{
+    font-size: 1.2em;
+    color: rgb(200, 200, 200);
+    margin: 2% 0 5% 7%;
+    width: 80%;
+}
+
+.gallery{
+    width: 100%;
+    background-color: rgb(30, 33, 38);
+    height: auto;
+}
+
+.gallery h1{
+    font-size: 5em;
+    color: white;
+    margin: 5% 0 2% 7%;
+}
+
+.shadowleft{
+    margin-top:-220px;
+    margin-left: -10%;
+    width: 10%;
+    height:220px;
+    pointer-events: none;
+    background-color: red;
+    z-index: 2;
+    position: relative;
+    box-shadow: 20px 0 20px 20px rgb(30, 33, 38);
+}
+
+.shadowright{
+    float: right;
+    margin-top:-220px;
+    margin-right: -10%;
+    width: 10%;
+    height:220px;
+    pointer-events: none;
+    background-color: red;
+    z-index: 2;
+    position: relative;
+    box-shadow: -20px 0 20px 20px rgb(30, 33, 38);
+}
+
+
+
+
+
+
+
+
+
+
+.slider-container {
+    overflow: hidden;
+    width: 100%;
+    background: #00000000;
+    white-space: nowrap;
+    position: relative;
+    padding: 10px 0;
+    
+}
+
+.slider-track {
+    display: flex;
+    width: max-content;
+    will-change: transform;
+    animation-play-state: paused;
+}
+
+.slider-track.running {
+    animation: scroll 20s linear infinite;
+    animation-play-state: running;
+}
+
+.slider-track img {
+    height: 200px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    display: block;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.slider-track img:hover {
+    transform: scale(1.05);
+}
+
+.slider-container:hover .slider-track.running {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); } 
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.9);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal img { 
+    max-width: 85%; 
+    max-height: 85%; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.close, .prev, .next {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    user-select: none;
+    background: none;
+    border: none;
+    padding: 10px;
+}
+
+.close { top: 20px; right: 30px; }
+.prev { left: 20px; }
+.next { right: 20px; }
+
+.close:hover, .prev:hover, .next:hover {
+    color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+.specifics{
+    margin-top: 7vh;
+    width: 100%;
+    height:auto;
+    background-color: rgb(40, 44, 51);
+    border-bottom:4px solid rgb(48, 51, 58);
+    border-top:4px solid rgb(48, 51, 58);
+}
+
+.specifics h1{
+    font-size: 5em;
+    color: white;
+    margin: 5% 0 0 7%;
+}
+
+.specifics p{
+    font-size: 1.2em;
+    color: rgb(200, 200, 200);
+    margin: 2% 0 5% 7%;
+    width: 80%;
+}
+
+
+.discord {
+    margin-top: 7vh;
+    width: 100%;
+    background-color: rgb(30, 33, 38);
+    display: flex;
+    flex-wrap: wrap; 
+    padding-bottom: 50px;
+}
+
+
+.discord iframe {
+    margin: 5% 7% 0 auto; 
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    min-height: 500px;
+    width: 350px; 
+    border: 3px solid rgb(87, 100, 242);
+}
+
+.discord h1{
+    font-size: 5em;
+    color: white;
+    margin: 5% 0 0 11%;
+    width: 60vw;
+}
+
+.discord p{
+    font-size: 1.2em;
+    color: rgb(200, 200, 200);
+    margin: 2% 0 0 11.5%;
+    width: 50vw;
+    
+}
+
+.discord button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3% 0 0 10%;
+    width: 30%;
+    height: 10vh;
+    background-color:rgb(87, 100, 242);
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+
+.discord button:hover{
+    background-color: rgb(99, 112, 246);
+    color: rgb(255, 255, 255);
+    scale: 1.05;
+}
+
+.discord a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+ul{
+    margin: 0 0 0 10%;
+    color: rgb(200, 200, 200);
+    width: 80%;
+    font-size: 1.2em;
+}
+
+li{
+    margin: 10px 0;
+}
+
+.logo{
+    width: auto;
+    height: 90%;
+    margin-left: 1%;
+    margin-top:0.6%;
+}
+
+.DiscordLogo{
+    width: auto;
+    height: 90%;
+    margin-right: 1%;
+    margin-top:0.6%;
+    float:right;
+    scale: 0.8;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.DiscordLogo:hover{
+    margin-top:0.3%;
+
+}
+
+
+
+
+.team{
+    width: 100%;
+    background-color: rgb(40, 44, 51);
+    border-bottom:4px solid rgb(48, 51, 58);
+    border-top:4px solid rgb(48, 51, 58);
+    height: auto;
+}
+
+.team h1{
+    font-size: 5em;
+    color: white;
+    margin: 5% 0 0 7%;
+}
+
+
+.team h2{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    margin: 1% 0 1% 7%;
+}
+
+.teampart{
+    margin: 0 0 2.5% 7%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.user{
+    height: auto;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 20px;
+    align-items: start;
+    margin: 20px 2vw 0 0;
+    border:3px solid rgb(48, 51, 58);
+    width:auto;
+    border-radius: 10px;
+    background-color: rgb(30, 33, 38);
+    color:white;
+    font-size:1.3em;
+    padding: 10px;
+}
+
+.user h3 {
+    margin: 0;
+    align-self: center;
+}
+
+.user img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+
+.user p{
+    margin: 0;
+    display: block;
+    grid-row: 2;
+    font-size: 0.8em;
+    color:#d2d2d2
+}
+
+
+footer{
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(30, 33, 38);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(200, 200, 200);
+}
