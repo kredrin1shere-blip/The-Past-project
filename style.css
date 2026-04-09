@@ -51,6 +51,16 @@
         height: 14vw !important;
         font-size: 1.5em !important;
     }
+
+    .discord h1, .discord p {
+        width: 90% !important; /* Замість vw */
+        margin-left: 5% !important;
+    }
+
+    html, body {
+        position: relative;
+        overflow-x: hidden;
+    }
    
 
 }
@@ -229,42 +239,18 @@ margin:3% auto 5% 3%;
     width: 80%;
 }
 
-.gallery{
-    width: 100%;
-    background-color: rgb(30, 33, 38);
-    height: auto;
-}
-
 .gallery h1{
     font-size: 5em;
     color: white;
     margin: 5% 0 2% 7%;
 }
 
-.shadowleft{
-    margin-top:-220px;
-    margin-left: -10%;
-    width: 10%;
-    height:220px;
-    pointer-events: none;
-    background-color: red;
-    z-index: 2;
-    position: relative;
-    box-shadow: 20px 0 20px 20px rgb(30, 33, 38);
+.gallery {
+    position: relative; /* Додай це */
+    width: 100%;
+    overflow: hidden; /* Додай це */
 }
 
-.shadowright{
-    float: right;
-    margin-top:-220px;
-    margin-right: -10%;
-    width: 10%;
-    height:220px;
-    pointer-events: none;
-    background-color: red;
-    z-index: 2;
-    position: relative;
-    box-shadow: -20px 0 20px 20px rgb(30, 33, 38);
-}
 
 
 
