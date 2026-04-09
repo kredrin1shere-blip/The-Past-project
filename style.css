@@ -1,6 +1,6 @@
 
 
-@media screen and (max-width: 800px) and (pointer: coarse) {
+@media screen  and (orientation: portrait) {
     body{
         width: 100%  !important;
     }
