@@ -1,6 +1,10 @@
 
 
 @media screen and (max-width: 680px) {
+    .user{
+            width:250px;
+    }
+
     body{
         width: 100%  !important;
         
