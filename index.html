@@ -2,39 +2,49 @@
     <head>
       <link rel="stylesheet" href="style.css">
       <link rel="icon"  href="/images/mini logo.png">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>The Past project</title>
     </head>
+    
     <body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800, 
+      once: true,  
+    });
+  </script>
+  <script src="script.js"></script>
      <header><img src="images/wide title.png" class="Logo"><a href="https://discord.gg/wfqAhGutKm"><img src="images/discord.png" class="DiscordLogo"></a>
     </header>
      <main>
 
 
        <div class ='mainblock'>
-         <div class="textabout"><div class="text-content">
+         <div class="textabout" data-aos="fade-right" data-aos-delay="10"><div class="text-content">
           <h1 class="title">The Past project</h1>
           <p class="undertitle">A minecraft portal-like map</p>
           <iframe src="https://www.youtube.com/embed/3kXHV7IXZM0?si=bmV0-RP0zwGjmQ95?autoplay=1&mute=1"></iframe>  
          </div></div>
-        <div class="introduser"></div>
+        <div class="introduser" data-aos="fade-left" data-aos-delay="10"></div>
         </div>
 
       
-        <div class="about">
+        <div class="about"><div  data-aos="fade-left" data-aos-delay="10">
         <h1>About</h1>
-        <p>Pls vscode helper write something really long after ":" and not ")" : This is a really long text that should wrap to the next line and continue on for a while to demonstrate the wrapping behavior of the paragraph element.<br><br>Blablabla blebleble blublubluu i eat cheese random text from wikipedia: https://en.wikipedia.org/wiki/The_Past_Project</p>
+        <p>This is a project,that was made to resamble portal experience.<br><br>It started in the summer of 2025 and still in development.The main aspect is the "abandoned" atmosphere,likein the start of portal 2 and some of its mods.There are many test chaimbers and testing elements,including portals.The main goal is [we still dont know].</p>
         <button>Download</button>
         <h2>The map is still in development</h2>
-        </div>
+        </div></div>
 
 
-       <div class="release">
+       <div class="release"><div  data-aos="fade-right" data-aos-delay="10">
         <h1>Release date</h1>
-        <p>The release date is not announced yet <br><br>Join our <a href="">Discord server</a> for updates!</p>
-        </div>
+        <p>The release date is not announced yet <br><br>Join our <a href="https://discord.gg/wfqAhGutKm">Discord server</a> for updates!</p>
+        </div></div>
 
-        <div class="gallery">
+        <div class="gallery"><div  data-aos="fade-left" data-aos-delay="10">
           <h1>Gallery</h1>
 
 <div class="slider-container">
@@ -48,16 +58,16 @@
     <img id="modalImg" src="" alt="Full view">
     <button class="next">&#10095;</button>
 </div>
-        </div>
+        </div></div>
 
 
 
-        <div class="specifics">
+        <div class="specifics"><div  data-aos="fade-right" data-aos-delay="300">
           <h1>Specifics</h1>
           <p><b>Minecraft version:</b><br>1.21.1<br><br><b>Mod loader:</b><br>Neoforge (version is changing)<br><br><b>Languages:</b><br>English<br><br><b>Stuff within the download file:</b><br>Mods, config, resoure packs, saves(world folder) and other</p>
-        </div>
+        </div></div>
 
-<div class="discord">
+<div class="discord"><div  data-aos="fade-left" data-aos-delay="300">
     <div class="discord-content">
         <h1>Discord server</h1>
         <p>To stay updated with the latest news and announcements, join our Discord server!</p>
@@ -71,41 +81,40 @@
         <a href="https://discord.gg/wfqAhGutKm" target="_blank">
             <button>Join server</button>
         </a>
-    </div>
+    </div></div>
 
-    <iframe src="https://discord.com/widget?id=1409250778555879436&theme=dark" 
+    <div data-aos="fade-left" data-aos-delay="60"><iframe src="https://discord.com/widget?id=1409250778555879436&theme=dark" 
             allowtransparency="true" 
             frameborder="0" 
             sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
-    </iframe>
+    </iframe></div>
 </div>
 
 
 
 
-        <div class="team">
+        <div class="team"><div data-aos="fade-right" data-aos-delay="10">
           <h1>Team</h1>
           <h2>Builders / Main team</h2>
           <div class="teampart">
-           <div class="user"><img class="user-img" src="images/Kredrin.png"><div class="user-info"><h3 class='username'>Kredrin</h3><p>Project idea</p></div></div> 
-           <div class="user"><img class="user-img" src="images/imaje.png"><div class="user-info"><h3 class='username'>Proton</h3><p>Helper</p></div></div>
+           <div  data-aos="fade-left" data-aos-delay="100"><div class="user" style="background: linear-gradient(90deg,rgba(165, 42, 42, 1) 0%, rgba(30, 33, 38, 1) 94%);"><img class="user-img" style="background-color: #a52a2a;" src="images/pics for profiles/Kredrin.png"><div class="user-info"><h3 class='username'>Kredrin</h3><p>Project idea</p></div></div> </div>
+           <div  data-aos="fade-left" data-aos-delay="200"><div class="user" style="background: linear-gradient(90deg,rgb(83, 42, 165) 0%, rgba(30, 33, 38, 1) 94%);"><img class="user-img" style="background-color: #532aa5;" src="images/pics for profiles/Proton.png"><div class="user-info"><h3 class='username'>Proton</h3><p>Helper</p></div></div></div>
           </div>
           <h2>Special thanks</h2>
            <div class="teampart">
-           <div class="user"><img class="user-img" src="images/imaje.png"><div class="user-info"><h3 class='username'>Valve</h3><p>Creating portal</p></div> </div>
-           <div class="user"><img class="user-img" src="images/imaje.png"><div class="user-info"><h3 class='username'>PortalMod</h3><p>Perfect website example</p></div> </div>
-           <div class="user"><img class="user-img" src="images/Kredrin.png"><div class="user-info"><h3 class='username'>MC mod developers</h3><p>Creating awesome mods for our modpack</p></div> </div>
+           <div  data-aos="fade-left" data-aos-delay="300"><a href="https://www.valvesoftware.com/uk/"  target="_blank"><div class="user" style="background: linear-gradient(90deg,rgb(13, 13, 13) 0%, rgba(30, 33, 38, 1) 94%);">    <img class="user-img"  src="images/pics for profiles/valve.jpg">                                          <div class="user-info"><h3 class='username'>Valve</h3><p>Creating portal</p></div> </div></a></div>
+           <div  data-aos="fade-left" data-aos-delay="400"><a href="https://www.portalmod.net"          target="_blank"><div class="user" style="background: linear-gradient(90deg,rgb(51, 111, 135) 0%, rgba(30, 33, 38, 1) 94%);">  <img class="user-img"  style="background-color: #336f87;" src="images/pics for profiles/portalmod.png"><div class="user-info"><h3 class='username'>PortalMod</h3><p>Perfect website example</p></div> </div></a></div>
+           <div  data-aos="fade-left" data-aos-delay="500"><a href="https://modrinth.com"               target="_blank"><div class="user" style="background: linear-gradient(90deg,rgb(33, 66, 42) 0%, rgba(30, 33, 38, 1) 94%);">   <img class="user-img"  style="background-color: #21422a;" src="images/pics for profiles/modrinth.png"><div class="user-info"><h3 class='username'>MC mod developers</h3><p>Creating awesome mods for our modpack</p></div> </div></a></div>
           </div>
 
-        </div>
+        </div></div>
 
       </main>
      <footer>
       <p>© 2025-2026 project<br>
-      We are NOT affiliated, associated, authorized, endorsed by, or in any way officially connected with: Microsoft®, Mojang®, Valve®</p>
+      We are NOT affiliated, associated, authorized, endorsed by, or in any way officially connected with: Microsoft®, Mojang®, Valve®, PortalMod®</p>
      </footer> 
 
 
-     <script src="script.js"></script>
     </body>
 </html>
