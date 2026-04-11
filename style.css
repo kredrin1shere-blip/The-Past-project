@@ -73,9 +73,8 @@
 
 }
 
-html {
-  scroll-behavior: smooth;
-}
+
+
 
 body{
     margin: 0;
@@ -83,6 +82,13 @@ body{
     background-color: rgb(30, 33, 38);
     font-family: "Inter", sans-serif;   
 }
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 
 @keyframes changebg{
     0%{
